@@ -1,0 +1,39 @@
+{
+  "ahs": {
+    "exec_mode": "expected_round",
+    "expected_temp": 1.0,
+    "intra_cut_t": 0.25,
+    "signal_mode": "both",
+    "speed_beta": 4.0,
+    "speed_fallback": "ehh_only",
+    "speed_weight": 0.5,
+    "speed_window": 20,
+    "stride_alpha": 4.0,
+    "stride_candidates": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "tau_window": 3,
+    "ts_epsilon": 0.05,
+    "ts_forget_rho": 0.99,
+    "ts_kernel_bandwidth": 10.0,
+    "ts_update_eta": 1.0,
+    "ts_update_mode": "kernel_forget",
+    "use_speed_uniformity": true,
+    "z_mode": "window_rms"
+  },
+  "documented_model_configuration": [
+    "nvidia/GR00T-N1.5-3B at 869830fc749c35f34771aa5209f923ac57e4564e, GR1 embodiment.",
+    "The GR00T backend is pinned to 4af2b622892f7dcb5aae5a3fb70bcb02dc217b96 in the archived configuration."
+  ],
+  "weights": {
+    "/home/hitarth/chunktrust-reproduction/models/GR00T-N1.5-3B/869830fc749c35f34771aa5209f923ac57e4564e/config.json": "6159de1bea27399cb4d5d8f2ad79bdfbaf9f7646dc83786dd186cd291a4f201b",
+    "/home/hitarth/chunktrust-reproduction/models/GR00T-N1.5-3B/869830fc749c35f34771aa5209f923ac57e4564e/experiment_cfg/metadata.json": "a999a347b99963f6309c3b392c7364516311b1eb35d14fc845661e8e8be8da92",
+    "/home/hitarth/chunktrust-reproduction/models/GR00T-N1.5-3B/869830fc749c35f34771aa5209f923ac57e4564e/model-00001-of-00003.safetensors": "4d5e8e2a81a4b25084965ae87b8257a87ebe2f3b6656f83bbb15ba13675940b6",
+    "/home/hitarth/chunktrust-reproduction/models/GR00T-N1.5-3B/869830fc749c35f34771aa5209f923ac57e4564e/model-00002-of-00003.safetensors": "03ba0f11339d5ed24920582781c7352e308eb4eb78067c128bd8516b146656c8",
+    "/home/hitarth/chunktrust-reproduction/models/GR00T-N1.5-3B/869830fc749c35f34771aa5209f923ac57e4564e/model-00003-of-00003.safetensors": "1f572eb204d7afe3ddbfb890ca56eac1a9bafbdce51ed6fd3ba314dc4298d565"
+  },
+  "weights_included": false
+}

@@ -1,0 +1,33 @@
+{
+  "excluded_from_self_hash": [
+    ".gitignore",
+    "provenance/export.json",
+    "provenance/validation.json"
+  ],
+  "files": {
+    "EVALUATION.md": "53ef63df9712b2168142d51399e47409dd7d69160978628915e7f6532de090ac",
+    "LICENSE": "bdad4c6087a3fea4f50fe2eb8bca565d5b25321eca79415ba015a23c99b7a6a2",
+    "NOTICE.md": "108532412870ee803cf582f68b69c515aa38cddaffa90f3889b473fc646f15a9",
+    "PUBLICATION.json": "9e6b037b836ef144e2c7337d22898d66a714045863d67dbc91c39cd0c7d9f7fa",
+    "README.md": "b8dfca402ebedf46bfbc93383110b5c953b51821b7de287fd0ef4c7ec187cc05",
+    "configs/method.json": "4e336de767e873f20b5441369009926e3de3894c4b635f2ceea95e345ba48eee",
+    "docs/INTEGRATION.md": "4434418354bd422055a194355f3f0a7bd475ef2d46682df9ed89cb9e7e1509b1",
+    "licenses/UPSTREAM-LICENSE": "47c664305ab01245635e7f055f77c45a48f701807190ab4bcd5765eb54332ac2",
+    "my_harness.py": "a004fcaff6dc1e8d5a40ae6826d0ebd2605d8c52c903aba39992da01e0da86c4",
+    "provenance/evaluated-models.json": "40cc95ce7da7889bd7b4fd50f3feee04bf99cb94b9eee4a3acfe2a05c94c38fc",
+    "provenance/original-source-hashes.json": "1cdd36127fa31d26483e199821623d79dbb70de1e2bbbedc49535298ca22e97b",
+    "provenance/upstream.json": "3801a0cc6848c8356c9c2da03e9fa0cd16f469d379f776f187e3f797d38b8fef",
+    "reference/README.md": "73710e43ecb9584b021e55f76d9c08dd8acb72b19fad54cc439149cd05be9403",
+    "reference/gr00t-zero-shot/common.py": "738cb419450d23d8d09b4c749d2d140b418c85f7f941048b53ba12b33a77cbe9",
+    "reference/gr00t-zero-shot/controller_v4.py": "a004fcaff6dc1e8d5a40ae6826d0ebd2605d8c52c903aba39992da01e0da86c4",
+    "reference/gr00t-zero-shot/pipeline.py": "bb8c1318c346a3368f692b8b945e884c7dd3cf1ab0a8cd487cf1e9fce93be8b1",
+    "reference/gr00t-zero-shot/policy_worker.py": "b49e95fc6316e73c195f83b7fe20d44345db2a65c2017babbd59957677d21e5d",
+    "reference/gr00t-zero-shot/report.py": "a7ea9ec88b217d8d00de8600cffe43a626cf5621dbc4a624874cb0c2512d8083",
+    "reference/gr00t-zero-shot/test_runner.py": "16dcdf74ec4a67787846ee640f5ed62d3d1ffb830434c2fee26c66905c5720f0",
+    "results/interpretation.json": "d2724b06f774538f1f144915ea4892f2129128db5d4659671dbe624b429f0169",
+    "results/summary.json": "b44063eb85bfca289a3bebe84a230531275b602671591c0618eff1aa5aab36db",
+    "tests/test_controller.py": "de40af53ac7752dccddb79da92a93e62520b6eb9f9c6fa464af5dae94f1e3c01",
+    "tools/verify_export.py": "c0f2a4ad4b66c20d59111f7a4005ac44d8ba4b795806cd8d8125fdff185bca2e"
+  },
+  "note": "Only exported files are covered. Existing upstream files are preserved. .gitignore is merged on the two existing repositories."
+}

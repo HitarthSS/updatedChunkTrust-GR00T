@@ -1,0 +1,40 @@
+{
+  "note": "Source collection hashes; exported locations may differ. Core algorithms are copied without behavior changes.",
+  "source_files": [
+    {
+      "bytes": 5399,
+      "file": "gr00t-zero-shot/common.py",
+      "sha256": "738cb419450d23d8d09b4c749d2d140b418c85f7f941048b53ba12b33a77cbe9"
+    },
+    {
+      "bytes": 5973,
+      "file": "gr00t-zero-shot/controller_v4.py",
+      "sha256": "a004fcaff6dc1e8d5a40ae6826d0ebd2605d8c52c903aba39992da01e0da86c4"
+    },
+    {
+      "bytes": 13611,
+      "file": "gr00t-zero-shot/pipeline.py",
+      "sha256": "bb8c1318c346a3368f692b8b945e884c7dd3cf1ab0a8cd487cf1e9fce93be8b1"
+    },
+    {
+      "bytes": 6999,
+      "file": "gr00t-zero-shot/policy_worker.py",
+      "sha256": "b49e95fc6316e73c195f83b7fe20d44345db2a65c2017babbd59957677d21e5d"
+    },
+    {
+      "bytes": 3249,
+      "file": "gr00t-zero-shot/report.py",
+      "sha256": "a7ea9ec88b217d8d00de8600cffe43a626cf5621dbc4a624874cb0c2512d8083"
+    },
+    {
+      "bytes": 2752,
+      "file": "gr00t-zero-shot/test_runner.py",
+      "sha256": "16dcdf74ec4a67787846ee640f5ed62d3d1ffb830434c2fee26c66905c5720f0"
+    },
+    {
+      "bytes": 1070,
+      "file": "licenses/UPSTREAM-LICENSE",
+      "sha256": "47c664305ab01245635e7f055f77c45a48f701807190ab4bcd5765eb54332ac2"
+    }
+  ]
+}

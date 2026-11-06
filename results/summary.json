@@ -1,0 +1,63 @@
+{
+  "arms": {
+    "authors": {
+      "environment_steps": 86400,
+      "episodes": 120,
+      "external_vlm_calls": 0,
+      "horizon_violations": 0,
+      "inference_seconds": 820.7501991898753,
+      "model_input_tokens": 2889711,
+      "noise_reused_decisions": 0,
+      "paid_api_calls": 0,
+      "policy_budget_violations": 0,
+      "policy_calls": 9504,
+      "policy_roundtrip_seconds": 827.3238085513003,
+      "selector_seconds": 9.711383642163128,
+      "simulator_seconds": 2655.1558858565986,
+      "success_percent": 45.833333333333336,
+      "successes": 55,
+      "wall_seconds": 4559.926437546499
+    },
+    "v4": {
+      "environment_steps": 86400,
+      "episodes": 120,
+      "external_vlm_calls": 0,
+      "horizon_violations": 0,
+      "inference_seconds": 832.7797954687849,
+      "model_input_tokens": 2884859,
+      "noise_reused_decisions": 5729,
+      "paid_api_calls": 0,
+      "policy_budget_violations": 0,
+      "policy_calls": 9488,
+      "policy_roundtrip_seconds": 839.1457350030541,
+      "selector_seconds": 9.752656389959157,
+      "simulator_seconds": 2639.4355834932067,
+      "success_percent": 40.0,
+      "successes": 48,
+      "wall_seconds": 4602.067739907652
+    }
+  },
+  "completed_cases": 120,
+  "completed_episodes": 240,
+  "cost": "All VLM inference is local inside GR00T; input token counts include image tokens. No paid API.",
+  "horizon": "Strict 720 physical actions; no claim that this is the unpublished paper GR00T launch limit.",
+  "interpretation": "Matched 24-task five-episodes/task pilot; no full paper reproduction or pretraining-unseen claim.",
+  "paired": {
+    "difference_pp": -5.833333333333333,
+    "episode_bootstrap_95_difference_pp": [
+      -14.166666666666666,
+      2.5
+    ],
+    "harmed": 16,
+    "helped": 9,
+    "initial_state_or_prediction_mismatches": 0,
+    "mcnemar_exact_two_sided_p": 0.2295229434967041,
+    "task_cluster_bootstrap_95_difference_pp": [
+      -14.16666666666667,
+      2.5000000000000004
+    ]
+  },
+  "planned_cases": 120,
+  "planned_episodes": 240,
+  "timing": "Shared GPU; timings descriptive, with inference and simulator seconds separated."
+}

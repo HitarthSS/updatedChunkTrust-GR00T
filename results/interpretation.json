@@ -1,0 +1,18 @@
+{
+  "authors_harness": "55/120 (45.83%)",
+  "categories": [
+    "sampler_guidance",
+    "execution_monitoring"
+  ],
+  "full_paper_reproduction": false,
+  "horizon": "Our pilot: 720 physical actions and 180 policy calls. Released GR00T CLI defaults to 1,440; the paper's exact GR00T launch horizon is unverified.",
+  "limitations": [
+    "This candidate performed worse overall: nine helped, sixteen harmed.",
+    "The public checkpoint revision is pinned, but the paper did not supply an immutable checkpoint revision.",
+    "Zero-shot benchmark deployment does not prove absence from all pretraining.",
+    "This is a strict-budget matched pilot, not an exact paper replication or a pi0.5 result."
+  ],
+  "my_harness": "48/120 (40.00%)",
+  "paper_reference": "44.92% AHS for GR00T N1.5",
+  "scope": "Twenty-four RoboCasa GR1 tasks, five seeds each (20\u201324). Different policy from the pi0.5 repository."
+}

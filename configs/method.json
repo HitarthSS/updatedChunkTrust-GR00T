@@ -1,0 +1,15 @@
+{
+  "categories": [
+    "sampler_guidance",
+    "execution_monitoring"
+  ],
+  "entrypoint": "my_harness.py",
+  "horizon": "Our pilot: 720 physical actions and 180 policy calls. Released GR00T CLI defaults to 1,440; the paper's exact GR00T launch horizon is unverified.",
+  "models": [
+    "nvidia/GR00T-N1.5-3B at 869830fc749c35f34771aa5209f923ac57e4564e, GR1 embodiment.",
+    "The GR00T backend is pinned to 4af2b622892f7dcb5aae5a3fb70bcb02dc217b96 in the archived configuration."
+  ],
+  "paid_api_calls_required": 0,
+  "scope": "Twenty-four RoboCasa GR1 tasks, five seeds each (20\u201324). Different policy from the pi0.5 repository.",
+  "trainable_parameters": 0
+}
